@@ -39,7 +39,6 @@ public class LoginOkServlet extends HttpServlet {
 	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws
 		ServletException, IOException{
-		System.out.println("BBBBBBBBBBBBBB");
 		MemberBean mbean = new MemberBean();
 		//doGet안에 코딩되 내용이 JSP
 		response.setContentType("text/html;charset=euc-kr");
